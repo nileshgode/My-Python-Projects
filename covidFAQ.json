@@ -1,0 +1,79 @@
+{"intents": [
+        
+        {"tag": "greeting1",
+         "patterns": ["Hi", "what is your name?"],
+         "responses": ["Hello!", "my name is 'covidbot', develope by Nilesh Gode" ],
+         "context_set": ""
+        },
+    
+        {"tag": "greeting2",
+         "patterns": ["Tell me about covid19?"],
+         "responses": ["Yes, Ask your Questions, I am happy to help you!!"],
+         "context_set": ""
+        },
+    
+    
+         {"tag": "basicinformation1",
+         "patterns": ["whats is novel corona virus?"],
+         "responses": ["novel corona virus is a disease-2019 (COVID-19),It causes symptoms like mild illness, like the common cold." , "In COVID-19, ‘CO’ stands for ‘corona,’ ‘VI’ for ‘virus,’ and ‘D’ for disease. Formerly, this disease was referred to as “2019 novel coronavirus” or “2019-nCoV”." ],
+         "context_set": ""
+        },
+        
+        {"tag": "basicinformation2",
+         "patterns": ["Tell me some information for covid19?"],
+         "responses": [ "In COVID-19, ‘CO’ stands for ‘corona,’ ‘VI’ for ‘virus,’ and ‘D’ for disease. Formerly, this disease was referred to as “2019 novel coronavirus” or “2019-nCoV”.","COVID-19 is circulate thought person to person, mainly through respiratory droplets produced when an infected person coughs, sneezes, or talks." ],
+         "context_set": ""
+        },
+        
+        {"tag": "basicinformation3",
+         "patterns": [ "How covid circulate?"],
+         "responses": ["COVID-19 is circulate thought person to person, mainly through respiratory droplets produced when an infected person coughs, sneezes, or talks." ],
+         "context_set": ""
+        },
+    
+        
+        {"tag": "misconceptions1",
+         "patterns": ["Is any evedence that covid19 transmission through food?"],
+         "responses": ["There is no evidence to support transmission of COVID-19 associated with food" ],
+         "context_set": ""
+        },
+    
+        {
+            "tag": "misconceptions2",
+         "patterns": [" Is covid19 spread by mosquitoes or ticks?"],
+         "responses": [ "CDC has no data to suggest that  coronaviruse is spread by mosquitoes or ticks." ],
+         "context_set": ""
+         },
+         
+         {"tag": "prevention1",
+         "patterns": ["How I can prevent illness to cause?"," Tell me about protection measures?"],
+         "responses": ["The best way to prevent illness is to avoid being exposed to this virus." , "protection measures are wash your hands, avoid close contacts, Use masks, Monitor your health" ],
+         "context_set": ""
+         },
+        
+         {"tag": "symptoms1",
+         "patterns": ["what are the symptoms of covid19?"],
+         "responses": ["symptoms are Fever or chills,Shortness of breath or difficulty breathing,cough,fatigue,headache,sore throat"],
+         "context_set": ""
+        },
+         
+         {"tag": "symptoms2",
+         "patterns": [" When to seek emergency medical attention?"],
+         "responses": ["emergency medical attention when Trouble breathing, Persistent pain or pressure in the chest, confusion, Inability to wake or stay awake, Bluish lips or face" ],
+         "context_set": ""
+        },
+        
+    
+         {"tag": "testing1",
+         "patterns": ["should I need to do test for covid19?"],
+         "responses": ["no need, Unless a mild symptoms appear." ],
+         "context_set": ""
+        },
+        {"tag": "testing2",
+         "patterns": [" When to make self Quarantine?","what to do,if I am Sick"],
+         "responses": [ "Selff Quarantine is to keep someone who might have been exposed to COVID-19 away from others." , " If you are sick stay home,contact with your doctor, avoid outdoor contacts, check your health status regularly, monitor symptoms"],
+         "context_set": ""
+        }
+        
+        ]
+}
